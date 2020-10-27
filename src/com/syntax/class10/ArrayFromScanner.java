@@ -22,6 +22,7 @@ public class ArrayFromScanner {
 		//we are retrieving values from an array
 		for( int i = 0; i < name.length; i++) {
 			System.out.print(name[i]+" ");
+			name[i]=scan.nextLine();
 			
 		
 		}
