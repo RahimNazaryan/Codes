@@ -8,8 +8,8 @@ public class Dog {
     String breed;
     String size;
     int old;
-    void bark() {
-        System.out.println("Dog quiet");
+    public void bark() {
+        System.out.println("Dogs Bark");
     }
     void play() {
         System.out.println("Yes ");
